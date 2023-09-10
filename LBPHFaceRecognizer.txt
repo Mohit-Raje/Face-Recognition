@@ -1,0 +1,7 @@
+LBPHFaceRecognizer is a face recognition algorithm that is based on Local Binary Pattern Histograms (LBPH). It is a type of feature extraction algorithm used in computer vision to identify and recognize faces in images and videos.
+
+The LBPH algorithm works by dividing the face into a grid of cells and then applying the LBP operator to each cell. The LBP operator calculates a binary code for each pixel in the image based on its neighboring pixels. The binary codes for all pixels in a cell are then combined to form a single histogram for that cell. Finally, the histograms for all cells are concatenated to form the feature vector for the entire face.
+
+Once the feature vector is extracted for a face, it can be compared to other feature vectors to identify the person. LBPHFaceRecognizer uses a machine learning model to learn the patterns in the feature vectors of different faces and then uses this knowledge to recognize new faces.
+
+One of the advantages of LBPHFaceRecognizer is that it is relatively simple and computationally efficient compared to other face recognition algorithms. However, its performance can be affected by factors such as lighting conditions, pose variations, and occlusions, which can make it less accurate in certain situations.
